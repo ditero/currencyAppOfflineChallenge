@@ -8,6 +8,8 @@
 
 .clean-block.convert-form form {
     border-top: 2px solid #000000;
+    margin-bottom: -93px;
+    margin-top: -32px;
 }
 
 .text-info{

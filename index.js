@@ -39,18 +39,18 @@ function getCurrencies(req) {
 
                 // Dynamically render currencies into select options tags
                 if (index == "BTC") {
-                    resultsFrom += `<option value="${index}" selected> ${sortedObject[index].currencyName} (${index})</option>`
+                    resultsFrom += `<option value="${index}" selected> ${sortedObject[index].currencyName}</option>`
 
                 }else{
-                    resultsFrom += `<option value="${index}"> ${sortedObject[index].currencyName} (${index})</option>`
+                    resultsFrom += `<option value="${index}"> ${sortedObject[index].currencyName}</option>`
  
                 }
                 
                 if (index == "ZAR") {
-                    resultsTo += `<option value="${index}" selected> ${sortedObject[index].currencyName} (${index})</option>`
+                    resultsTo += `<option value="${index}" selected> ${sortedObject[index].currencyName}</option>`
 
                 }else{
-                    resultsTo += `<option value="${index}"> ${sortedObject[index].currencyName} (${index})</option>`
+                    resultsTo += `<option value="${index}"> ${sortedObject[index].currencyName}</option>`
 
                 }
             }

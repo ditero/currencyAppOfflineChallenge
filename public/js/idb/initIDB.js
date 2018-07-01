@@ -34,7 +34,6 @@
 					                const countries = db.transaction('countries', 'readwrite').objectStore('countries');
 					                const countriesIndex = countries.index('country');
 					                countriesIndex.getAll().then(currencies => {
-										console.log(currencies)
 					                })
 					            })
 					        }).catch(() => {

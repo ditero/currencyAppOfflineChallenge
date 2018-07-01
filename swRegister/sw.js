@@ -8,7 +8,7 @@ self.addEventListener('install', function(event) {
           './index.js',
           './public/js/idb/initIDB.js',
           './assets/js/jquery-3.2.1.min.js',
-          './sw.js', 
+          './swRegister/sw.js', 
           './index.html',     
         ]);
       })
